@@ -1,10 +1,13 @@
 speak_to_grandma = "I LOVE YOU GRANDMA!"
-if speak_to_grandma == "I LOVE YOU GRANDMA!"
-  return "I LOVE YOU TOO PUMPKIN!"
-elsif speak_to_grandma == "WHAT DID YOU EAT TODAY?"
-  return "NO, NOT SINCE 1938!"
+
+
+def speak_to_grandma(greeting)
+if greeting == "I LOVE YOU GRANDMA!"
+  puts "I LOVE YOU TOO PUMPKIN!"
+elsif greeting == "WHAT DID YOU EAT TODAY?"
+  puts "NO, NOT SINCE 1938!"
 else
-  return "HUH?! SPEAK UP, SONNY!"
+  puts "HUH?! SPEAK UP, SONNY!"
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
