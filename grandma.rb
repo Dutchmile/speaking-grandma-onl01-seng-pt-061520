@@ -4,7 +4,7 @@ if speak_to_grandma == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN!"
 elseif speak_to_grandma == "WHAT DID YOU EAT TODAY?"
   puts "NO, NOT SINCE 1938!"
-else "HUH?! SPEAK UP, SONNY!"
+else puts "HUH?! SPEAK UP, SONNY!"
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
